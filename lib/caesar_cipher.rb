@@ -15,7 +15,5 @@ def caesar_cipher(str, num)
     end
     ascii_chr.chr
   end
-  puts str_arr.join('')
+   str_arr.join('')
 end
-
-caesar_cipher('What a string!', 5)
